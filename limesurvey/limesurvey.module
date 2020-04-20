@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains limesurvey.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_help().
+ */
+function limesurvey_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the limesurvey module.
+    case 'help.page.limesurvey':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a library to easily integrate with the Lime Survey API') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function limesurvey_theme() {
+  return [
+    'limesurvey' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+

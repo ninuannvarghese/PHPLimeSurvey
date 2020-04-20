@@ -1,0 +1,5 @@
+name: 'Lime Survey API'
+type: module
+description: 'Provides a library to easily integrate with the Lime Survey API'
+core: 8.x
+package: 'Custom'
