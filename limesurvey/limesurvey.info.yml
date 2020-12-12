@@ -2,4 +2,6 @@ name: 'Lime Survey API'
 type: module
 description: 'Provides a library to easily integrate with the Lime Survey API'
 core_version_requirement: ^8 || ^9
-package: 'Custom'
+version: '8.x-1.4'
+project: 'limesurvey_api'
+datestamp: 1607799870
