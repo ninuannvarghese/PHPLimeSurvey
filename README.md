@@ -1,6 +1,6 @@
 Description:
 ---------------
-The Lime Survey API module provides multiple blocks, For each block the data is retrieved by making calls to the LimeSurvey API.
+The Lime Survey API is a Drupal 8 module provides multiple blocks, For each block the data is retrieved by making calls to the LimeSurvey API.
 
 In order to use this module, you will need to create a lime survey Instance where you enable the API .
 The Details can be found here https://manual.limesurvey.org/RemoteControl_2_API#List_of_functions
