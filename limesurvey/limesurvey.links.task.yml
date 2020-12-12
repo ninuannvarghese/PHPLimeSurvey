@@ -1,0 +1,8 @@
+limesurvey.settings:
+  title: ' Survey settings'
+  route_name: limesurvey.settings
+  base_route: limesurvey.settings
+limesurvey.listsurvey:
+  title: 'Add/Configure Survey Ids'
+  route_name: limesurvey.listsurvey
+  base_route: limesurvey.settings

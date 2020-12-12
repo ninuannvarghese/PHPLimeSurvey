@@ -1,0 +1,7 @@
+surveydata:
+  <SURVEYID>:
+    surveytitle: 'Survey Title'
+    surveytype: nps
+surveytypes:
+  nps: 'Customer Survey'
+  other: Other

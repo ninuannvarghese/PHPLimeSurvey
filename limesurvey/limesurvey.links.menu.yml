@@ -1,0 +1,5 @@
+limesurvey.settings:
+  route_name: limesurvey.settings
+  title: 'Survey Settings'
+  description: 'Interface to manage Lime Survey Settings.'
+  parent: system.admin_config_services

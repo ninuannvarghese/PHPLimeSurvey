@@ -1,0 +1,23 @@
+limesurvey.settings:
+  path: '/admin/config/services/limesurvey/settings'
+  defaults:
+    _form: 'Drupal\limesurvey\Form\SurveySettingsForm'
+    _title: ' Lime Survey Settings'
+  requirements:
+    _permission: ' survey configuration'
+
+limesurvey.listsurvey:
+  path: '/admin/config/services/limesurvey/surveylist'
+  defaults:
+    _controller: '\Drupal\limesurvey\Controller\SurveyController::ConfigureSurvey'
+    _title: 'Survey ID Configuration'
+  requirements:
+    _permission: ' survey configuration'
+
+limesurvey.delete:
+  path: '/admin/config/services/limesurvey/surveylist/delete/{surveyid}'
+  defaults:
+    _form: 'Drupal\limesurvey\Form\LimeSurveyDeleteForm'
+    title: 'Survey Delete'
+  requirements:
+    _permission: ' survey configuration'

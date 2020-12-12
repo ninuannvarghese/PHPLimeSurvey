@@ -1,0 +1,4 @@
+services:
+  limesurvey.client:
+    class: Drupal\limesurvey\LimeSurveyClient
+    arguments: ['@config.factory']
